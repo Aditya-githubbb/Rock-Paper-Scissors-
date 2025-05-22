@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+body{
+    background-image: url(okok.jpg);
+}
+
+h1{
+    background-color: #023047;
+    color: #bde0fe;
+    height: 8rem;
+    line-height: 8rem;
+}
+
+p{
+    font-size: large;
+    font-weight: bolder;
+}
+
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 7rem;
+}
+
+.choice:hover{
+    background-color: #023047;
+    cursor: pointer;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 4rem ;
+    gap: 5rem;
+}
+
+#user-score , #comp-score{
+    font-size: 5rem;
+}
+
+.msg-container{
+    margin-top: 4rem;
+}
+
+#msg{
+    background-color: #023047;
+    color: #bde0fe;
+    height: 5rem;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
